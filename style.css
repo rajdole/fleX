@@ -1,0 +1,43 @@
+body {
+		font-family: Helvetica, "Helvetica Neue", Arial, sans-serif;
+	}
+	
+	h1 {
+		border: 1px solid #000;
+		text-align: center;
+		padding: 10px;
+	}
+	
+/* CLEARFIX */
+.clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}.clearfix:after{clear:both;content:' ';display:block;font-size:0;line-height:0;visibility:hidden;width:0;height:0}* html .clearfix,*:first-child+html .clearfix{zoom:1}
+	
+.grid-1 { width: 6.6666666666667%; }
+.grid-2 { width: 15%; }
+.grid-3 { width: 23.333333333333%; }
+.grid-4 { width: 31.666666666667%; }
+.grid-5 { width: 40%; }
+.grid-6 { width: 48.333333333333%; }
+.grid-7 { width: 56.666666666667%; }
+.grid-8 { width: 65%; }
+.grid-9 { width: 73.333333333333%; }
+.grid-10 { width: 81.666666666667%; }
+.grid-11 { width: 90%; }
+.grid-12 { width: 98.333333333333%; }
+
+.grid-1,
+.grid-2,
+.grid-3,
+.grid-4,
+.grid-5,
+.grid-6,
+.grid-7,
+.grid-8,
+.grid-9,
+.grid-10,
+.grid-11,
+.grid-12 {
+	margin-left: 0.83333333333333%;
+	margin-right: 0.83333333333333%;
+	float: left;
+	display: block;
+}
